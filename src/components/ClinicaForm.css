@@ -1,0 +1,60 @@
+.clinica-form-container {
+  width: 60%;
+  margin: 30px auto;
+  padding: 20px;
+  padding-top: 7px;
+  background: linear-gradient(135deg, #005e86, #0a475f);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.clinica-form-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 12px;
+  padding-bottom: 9px;
+}
+
+.clinica-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.clinica-form-container input {
+  width: 96,6%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background: linear-gradient(135deg, #d2e9f3, #c5eeff);
+}
+
+.clinica-form-container input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.clinica-form-container button {
+  padding: 12px 15px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.clinica-form-container button:hover {
+  background-color: #43a047;
+  transform: translateY(-2px);
+}
+
+.clinica-form-container button:active {
+  transform: translateY(0);
+}
